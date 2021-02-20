@@ -3,12 +3,15 @@ const { check } = require('express-validator');
 
 const recipesControllers = require('../controllers/recipes-controllers');
 const fileUpload = require('../middleware/file-upload');
+const checkAuth = require('../middleware/check-auth');
 
 const router = express.Router();
 
 router.get('/:pid', recipesControllers.getRecipeById);
 
 router.get('/user/:uid', recipesControllers.getRecipesByUserId);
+
+router.use(checkAuth);
 
 router.post(
   '/',

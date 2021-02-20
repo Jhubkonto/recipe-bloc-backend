@@ -1,0 +1,8 @@
+{
+  "env": {
+    "DB_USER": "julul",
+    "DB_PASSWORD": "aMxOenzz8I7ZVVux",
+    "DB_NAME": "recipes",
+    "JWT_KEY": "this_is_my_secret_code"
+  }
+}
