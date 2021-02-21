@@ -1,8 +1,8 @@
 {
   "env": {
-    "DB_USER": "julul",
-    "DB_PASSWORD": "aMxOenzz8I7ZVVux",
-    "DB_NAME": "recipes",
+    "DB_USER": "prod_jul",
+    "DB_PASSWORD": "skoTlq74TlosG1oO",
+    "DB_NAME": "mern-prod",
     "JWT_KEY": "this_is_my_secret_code"
   }
 }
